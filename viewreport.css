@@ -1,0 +1,37 @@
+ .u-section-1 {
+  background-image: linear-gradient(white, #eafdfc);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
+
+.u-section-1 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 53px 143px 0 auto;
+  padding: 10px 19px;
+}
+
+.u-section-1 .u-btn-2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 15px 144px 60px auto;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(red, green, blue);
+}
+@media (max-width: 1199px) {
+  .u-section-1 .u-btn-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-right: 0;
+  }
+}

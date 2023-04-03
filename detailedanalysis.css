@@ -1,0 +1,42 @@
+ .u-section-1 {
+  background-image: linear-gradient(white, #eafdfc);
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1211px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 998px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 764px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 573px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 361px;
+  }
+}
+  #pdf-container {
+        width: 60%;
+        transform: scale(1.25, 1.75);
+        transform-origin: top;
+        height: 600px;
+    }
+    #text-container {
+        width: 40%;
+        float: right;
+    }
+
