@@ -29,14 +29,13 @@
     min-height: 361px;
   }
 }
-  #pdf-container {
-        width: 60%;
-        transform: scale(1.25, 1.75);
-        transform-origin: top;
-        height: 600px;
-    }
+
     #text-container {
         width: 40%;
         float: right;
     }
 
+p{
+  margin-bottom: 20px;
+   line-height: 1.5;
+}

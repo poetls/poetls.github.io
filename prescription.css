@@ -104,3 +104,18 @@
     width: 320px;
   }
 }
+input[type="file"] {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.common-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

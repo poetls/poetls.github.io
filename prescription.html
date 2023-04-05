@@ -33,7 +33,7 @@
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
 <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-palette-5-light-3 u-header" id="sec-ef5a" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
-    <p class="u-text u-text-1">Gait Analysis Platform<span style="font-weight: 700;"></span>
+    <p class="u-text u-text-1" style="font-size: 19px;">Gait Analysis Platform<span style="font-weight: 700;"></span>
     </p>
     <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
         <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
@@ -80,20 +80,20 @@
 </div></header>
     <section class="u-clearfix u-container-align-center u-gradient u-section-1" id="sec-58aa">
 
-        <div style="text-align:center; margin-top:50px;">
-            <h1 style="color:black; font-size:3.5rem; font-weight:bold; text-transform:uppercase; letter-spacing:0.1em;">Prescription Advice</h1>
-        </div>
-        <div class="u-clearfix u-sheet u-sheet-1" style="display:flex; flex-direction:row;">
-            <div style="width:60%; height:100vh;margin-top: 50px;">
-                <form class="form">
-                <input class="u-btn u-button-style u-btn-2" type="file" id="pdf-file-one" name="pdf-file-one" />
-                <button class="common-button" type="button" onclick="uploadPdf()">Import PDF</button>
-                    <div id="pdf-container" ></div>
-                </form>
 
-                <!-- PDF阅读器 -->
+        <div class="u-clearfix u-sheet u-sheet-1" style="display:flex; flex-direction:row;">
+            <div style="width:60%; height:100vh;margin-top: 100px;margin-right: 100px;">
+                <div class="u-clearfix u-sheet u-sheet-1">
+                    <form class="form">
+                        <input class="" type="file" id="pdf-file-one" name="pdf-file-one" />
+                        <div class="form-button-box">
+                            <button class="common-button" type="button" onclick="uploadPdf()">display the report </button>
+                        </div>
+                    </form>
+                    <div id="pdf-container"></div>
+                </div>
             </div>
-            <div style="width:40%; height:100vh;margin-top: 50px;border-radius: 15px 5px 0px 0px; border: 1px solid black;">
+            <div style="width: 40%; height: 85vh; margin-top: 150px; border-radius: 10px; border: 1px solid black; box-sizing: border-box; padding: 10px;">
                 <form action="https://forms.nicepagesrv.com/v2/form/process" method="post" class="u-clearfix u-form-spacing-18 u-form-vertical u-inner-form" name="prescription" style="padding: 12px;" accept-charset="UTF-8">
                     <div class="u-form-group u-form-name">
                         <label for="name-9478" class="u-label u-label-1">Patient ID</label>

@@ -116,3 +116,11 @@
     height: 1481px;
   }
 }
+h2 {
+
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+
+}
