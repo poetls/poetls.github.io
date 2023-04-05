@@ -1,3 +1,4 @@
+// developed by GRP team 17
 // get form element and add submit event listener
 var loginForm = document.querySelector('form');
 loginForm.addEventListener('submit', handleFormSubmit);

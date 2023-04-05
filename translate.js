@@ -1,3 +1,4 @@
+// developed by GRP team 17
 // translate.js
 document.addEventListener('DOMContentLoaded', function() {
   const chineseSelector = document.getElementById('lang');
