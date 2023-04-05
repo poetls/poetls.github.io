@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html style="font-size: 16px" lang="zh">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <title>Worktable</title>
+        <link rel="stylesheet" href="nicepage.css" media="screen" />
+        <link rel="stylesheet" href="worktable.css" media="screen" />
+        <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+        <script class="u-script" type="text/javascript" src="worktable.js" defer=""></script>
+        <meta name="generator" content="Nicepage 5.5.0, nicepage.com" />
+        <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" />
+
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "",
+                "logo": "images/QQ20230302120246.png"
+            }
+        </script>
+        <meta name="theme-color" content="#478ac9" />
+        <meta property="og:title" content="工作台" />
+        <meta property="og:type" content="website" />
+        <meta data-intl-tel-input-cdn-path="intlTelInput/" />
+
+    <!-- jq -->
+    <script src="./jquery.js"></script>
+    <!-- 引入第三方库cdn jspdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- 引入第三方库cdn echarts -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.1/echarts.common.js"></script>
+    <!-- 引入第三方库cdn html2pdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-YcsIPGdhPK4P/uRW6/sruonlYj+Q7UHWeKfTAkBW+g83NKM+jMJFJ4iAPfSnVp7BKD4dKMHmVSvICUbE/V1sSw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    </head>
+
+    <body class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-palette-5-light-3 u-header" id="sec-ef5a" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-1" style="font-size: 19px;">Gait Analysis Platform<span style="font-weight: 700;"></span>
+        </p>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+            <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+                <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-color u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-decoration u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+                    <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+                    <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+                    </g></svg>
+                </a>
+            </div>
+            <div class="u-custom-menu u-nav-container">
+                <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="index.html" style="padding: 10px 6px;">Home</a>
+                </li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="worktable.html" style="padding: 10px 6px;">Worktable</a>
+                </li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="overview.html" style="padding: 10px 6px;">Visual Gait Samples</a><div class="u-nav-popup"><ul class="u-border-2 u-border-grey-75 u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="overview.html">General Overview</a>
+                </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="detailedanalysis.html">Detailed Analysis</a>
+                </li></ul>
+                </div>
+                </li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="prescription.html" style="padding: 10px 6px;">Prescription Advice</a>
+                </li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="user.html" style="padding: 10px 6px;">User</a>
+                </li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-90 u-border-hover-grey-50 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-grey-90 u-text-grey-90 u-text-hover-grey-90" href="about.html" style="padding: 10px 6px;">About</a>
+                </li></ul>
+            </div>
+            <div class="u-custom-menu u-nav-container-collapse">
+                <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                    <div class="u-inner-container-layout u-sidenav-overflow">
+                        <div class="u-menu-close"></div>
+                        <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="index.html">Home</a>
+                        </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="worktable.html">Worktable</a>
+                        </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="overview.html">Visual Gait Samples</a><div class="u-nav-popup"><ul class="u-border-2 u-border-grey-75 u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="overview.html">总览</a>
+                        </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="detailedanalysis.html">Detailed Analysis</a>
+                        </li></ul>
+                        </div>
+                        </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="prescription.html">Prescription Advice</a>
+                        </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="user.html">User</a>
+                        </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="about.html">About</a>
+                        </li></ul>
+                    </div>
+                </div>
+                <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+            </div>
+        </nav>
+        <a href="about.html" class="u-image u-logo u-image-1" data-image-width="342" data-image-height="354" title="关于">
+            <img src="images/QQ20230302120246.png" class="u-logo-image u-logo-image-1">
+        </a>
+    </div></header>
+
+    <section class="u-clearfix u-grey-10 u-section-1" id="sec-8c3e" style="background-image: url('images/chart-3186077.svg');background-size: cover; ">
+            <div class="u-clearfix u-sheet u-sheet-1">
+                <form class="form">
+                    <input class="u-btn u-button-style u-btn-2" type="file" id="pdf-file-one" name="pdf-file-one" />
+
+                    <div class="form-button-box">
+                            <button onclick="importCsv()" class="common-button" type="button">Export Visual Report</button>
+                    </div>
+                </form>
+            </div>
+            <script>
+                function uploadPdf() {
+                    const fileInput = document.getElementById("pdf-file-one");
+                    const file = fileInput.files[0];
+                    const reader = new FileReader();
+
+                    reader.onload = function (event) {
+                        const pdfUrl = event.target.result;
+                        const pdfElement = `<embed src="${pdfUrl}" type="application/pdf" width="100%" height="600px"/>`;
+                        document.getElementById("pdf-container").innerHTML = pdfElement;
+                    };
+                    reader.readAsDataURL(file);
+                }
+            </script>
+        </section>
+
+        <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-c46a">
+            <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+                <p class="u-small-text u-text u-text-palette-4-light-2 u-text-variant u-text-1" >scroll down to view visualized data</p>
+            </div>
+        </footer>
+
+        <div id="pdf-module" class="pdf-module">
+            <div class="pdf-box" id="pdf-box">
+                <div class="page">
+                    <div class="first-title">Gait Report for (,)</div>
+                    <div>Contents</div>
+                    <div>
+                        <span>Kinematics</span>
+                    </div>
+                    <div>
+                        <span>- Joint angles - Left</span>
+                    </div>
+                    <div>
+                        <span>- Joint angles - Right</span>
+                    </div>
+                    <div>
+                        <span>Kinetics</span>
+                    </div>
+
+                    <div>
+                        <span>- Joint moments - Left</span>
+                    </div>
+
+                    <div>
+                        <span>- Joint moments - Right</span>
+                    </div>
+
+                    <div>
+                        <span>- Joint powers - Left</span>
+                    </div>
+
+                    <div>
+                        <span>- Joint powers - Right</span>
+                    </div>
+                    <div class="page-end">
+                        <span>1</span>
+                    </div>
+                </div>
+
+
+                <div class="page">
+                    <div class="first-title">Kinematics - Joint angles - Left (, )</div>
+                    <div class="map-list">
+                        <div id="echarts1" class="common-echarts echarts-top"></div>
+                        <div id="echarts2" class="common-echarts echarts-top"></div>
+                        <div id="echarts3" class="common-echarts"></div>
+                        <div id="echarts4" class="common-echarts"></div>
+                        <div id="echarts5" class="common-echarts"></div>
+                        <div id="echarts6" class="common-echarts"></div>
+                        <div id="echarts7" class="common-echarts"></div>
+                        <div id="echarts8" class="common-echarts"></div>
+                        
+                    </div>
+                    <div class="page-end">
+                        <span>2</span>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="map-list">
+                        <div id="echarts9" class="common-echarts  echarts-top echarts-bottom"></div>
+                        <div id="echarts10" class="common-echarts  echarts-top echarts-bottom"></div>
+                    </div>
+                    <div class="first-title">Kinematics - Joint angles - Right (, )</div>
+                    <div class="map-list">
+                        <div id="echarts11" class="common-echarts echarts-top"></div>
+                        <div id="echarts12" class="common-echarts echarts-top"></div>
+                        <div id="echarts13" class="common-echarts"></div>
+                        <div id="echarts14" class="common-echarts"></div>
+                        <div id="echarts15" class="common-echarts"></div>
+                        <div id="echarts16" class="common-echarts"></div>
+                        
+                    </div>
+                    <div class="page-end">
+                        <span>3</span>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="map-list">
+                        <div id="echarts17" class="common-echarts  echarts-top"></div>
+                        <div id="echarts18" class="common-echarts  echarts-top"></div>
+                        <div id="echarts19" class="common-echarts echarts-bottom"></div>
+                        <div id="echarts20" class="common-echarts echarts-bottom"></div>
+                    </div>
+                    <div class="first-title">Kinetics - Joint moments - Left (, )</div>
+                    <div class="map-list">
+                        <div id="echarts21" class="common-echarts echarts-top"></div>
+                        <div id="echarts22" class="common-echarts echarts-top"></div>
+                        <div id="echarts23" class="common-echarts"></div>
+                        <div id="echarts24" class="common-echarts"></div>
+                    </div>
+                    <div class="page-end">
+                        <span>4</span>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="map-list">
+                        <div id="echarts25" class="common-echarts  echarts-top echarts-bottom"></div>
+                        <div id="echarts26" class="common-echarts  echarts-top echarts-bottom"></div>
+                    </div>
+                    <div class="first-title">Kinetics - Joint moments - Right (, )</div>
+                    <div class="map-list">
+                        <div id="echarts27" class="common-echarts  echarts-top"></div>
+                        <div id="echarts28" class="common-echarts  echarts-top"></div>
+                        <div id="echarts29" class="common-echarts"></div>
+                        <div id="echarts30" class="common-echarts"></div>
+                        <div id="echarts31" class="common-echarts"></div>
+                        <div id="echarts32" class="common-echarts "></div>
+                    </div>
+                    <div class="page-end">
+                        <span>5</span>
+                    </div>
+                </div>
+
+                <div class="page">
+                    <div class="first-title">Kinetics - Joint powers - Right (, )</div>
+                    <div class="map-list">
+                        <div id="echarts33" class="common-echarts  echarts-top"></div>
+                        <div id="echarts34" class="common-echarts  echarts-top"></div>
+                        <div id="echarts35" class="common-echarts "></div>
+                    </div>
+
+                    <div class="page-end">
+                        <span>6</span>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="first-title">Kinetics - Joint powers - Left (, )</div>
+                    <div class="map-list">
+                        <div id="echarts36" class="common-echarts echarts-top"></div>
+                        <div id="echarts37" class="common-echarts echarts-top"></div>
+                        <div id="echarts38" class="common-echarts"></div>
+                    </div>
+                    <div class="page-end">
+                        <span>7</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
